@@ -125,3 +125,15 @@ transform: translateY(-3px);
 transform: translateY(17px);
 }
 }
+
+.danger{
+	animation: light-danger 2s ease-in-out infinite alternate;
+}
+
+@keyframes light-danger{
+0%{
+opacity:0;
+}
+100%{
+opacity:1;
+}
