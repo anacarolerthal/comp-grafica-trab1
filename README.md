@@ -1,2 +1,3 @@
-# comp-grafica-trab1
-Trabalho da disciplina de Computação Gráfica
+# Trabalho da disciplina de Computação Gráfica
+
+Arte feita no Inkscape, incorporada em html e animada em css. 

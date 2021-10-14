@@ -1,0 +1,127 @@
+/* CSS da página */
+
+body {
+  background-color: #282729;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+
+}
+
+h1{
+  font-size: 40px;
+  color:  #FFF860;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  text-align:center;
+}
+
+h2{
+  font-size: 30px;
+  color:  #FFF860;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  text-align:center;
+}
+
+audio{
+	padding-bottom: 20px;
+}
+
+/* CSS do desenho */
+
+.elementos {
+  animation: move-elementos 16s ease-in-out infinite;
+	width: 340px;
+    height: 340px;
+	transform-origin:69% 41%;
+}
+
+@keyframes move-elementos{
+0%{
+transform: rotate(0deg);
+}
+100%{
+transform: rotate(1439.9deg);
+}
+}
+
+
+.elemento-1{
+	 animation: move-elemento-1 2s ease-in-out infinite alternate;
+}
+
+@keyframes move-elemento-1{
+0%{
+transform: translateX(4px)translateY(2px);
+}
+100%{
+transform: translateX(-3px) translateY(-2px);
+}
+}
+
+.elemento-2{
+	 animation: move-elemento-2 3s ease-in-out infinite alternate;
+}
+
+@keyframes move-elemento-2{
+0%{
+transform: translateX(-2px)translateY(-4px);
+}
+100%{
+transform: translateX(2px) translateY(3px);
+}
+}
+
+.luz{
+	 animation: move-luz 5s ease-in-out infinite alternate;
+}
+
+@keyframes move-luz{
+0%{
+transform: translateY(-15px);
+}
+100%{
+transform: translateY(5px);
+}
+}
+
+.luz-b{
+	 animation: move-luz-b 3s ease-in-out infinite alternate;
+}
+
+@keyframes move-luz-b{
+0%{
+transform: translateY(10px);
+}
+100%{
+transform: translateY(-15px);
+}
+}
+
+.luz-c{
+	 animation: move-luz-c 4s ease-in-out infinite alternate;
+}
+
+@keyframes move-luz-c{
+0%{
+transform: translateY(7px);
+}
+100%{
+transform: translateY(-7px);
+}
+}
+
+.luz-d{
+	 animation: move-luz-d 4.5s ease-in-out infinite alternate;
+}
+
+@keyframes move-luz-d{
+0%{
+transform: translateY(-3px);
+}
+100%{
+transform: translateY(17px);
+}
+}
