@@ -61,6 +61,7 @@ transform: translateX(-3px) translateY(-2px);
 }
 }
 
+
 .elemento-2{
 	 animation: move-elemento-2 3s ease-in-out infinite alternate;
 }
@@ -136,4 +137,18 @@ opacity:0;
 }
 100%{
 opacity:1;
+}
+}
+
+.luzinhas{
+	animation: luzinhas-mover 0.7s ease-in-out infinite alternate;
+}
+
+@keyframes luzinhas-mover{
+0%{
+opacity:0.5;
+}
+100%{
+opacity:1;
+}
 }
